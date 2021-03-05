@@ -89,10 +89,29 @@
               letter-spacing: 4px;
               /* line-height: 2; */
             }
+            .navbar-brand a:hover{
+              color:salmon !important;
+              font-weight: bolder;
+            }
             .navbar-nav  li a:hover {
               color:salmon !important;
               font-weight: bolder;
             }
+            /* .navbar-nav  li a:focus{
+              color:yellowgreen !important;
+              font-weight: bolder;
+            }
+            .navbar-nav  li a:active{
+              color:yellowgreen !important;
+              font-weight: bolder;
+            } */
+            .active { 
+              /* color:black; */
+              background-color: #C0C0C0; 
+              /* color: green; */
+              /* background-color:salmon; */
+              pointer-events: none;
+          } 
             .img-home{
               width:350px;
               height:280px; 
