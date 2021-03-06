@@ -10,45 +10,57 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="../Resources/style.css" />
       </head>
       <body>
         <div>
-        <nav class="navbar navbar-default">
-          <div class="menu-container" >
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-              </button>
-              <a class="navbar-brand">Latitude</a>
+          <nav class="navbar navbar-default">
+            <div class="menu-container" >
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <div class="navbar-brand">
+                <a  href="../index.html">
+                  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Latitude
+                </a>
+              </div>
+              </div>
+              <div class="menu-container collapse navbar-collapse" id="myNavbar" >
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a class="menu-item" href="../Assets/Data.html">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Data</a>
+                  </li>
+                  <li><a class="menu-item" href="../comparison.html">
+                    <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>Comparison</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle menu-item" data-toggle="dropdown" href="#">
+                      <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>Plots<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Visualization_Temp.html">
+                        <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>Max Temperature</a></li>
+                      <li><a class="dropdown-item" href="Visualization_Humidity.html">
+                        <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>Humidity</a></li>
+                      <li><a class="dropdown-item active"  href="Visualization_Cloudiness.html">
+                        <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>Cloudiness</a></li>
+                      <li><a class="dropdown-item"  href="Visualization_Windspeed.html">
+                        <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>Wind Speed</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="menu-container collapse navbar-collapse" id="myNavbar" >
-              <ul class="nav navbar-nav navbar-right">
-                <li><a class="menu-item" href="index.html">Home</a></li>
-                <li><a class="menu-item" href="#">Data</a></li>
-                <li><a class="menu-item" href="comparison.html">Comparison</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle menu-item" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="Visualization_Temp.html">Max Temperature</a></li>
-                    <li><a class="dropdown-item" href="Visualization_Humidity.html">Humidity</a></li>
-                    <li><a class="dropdown-item"  href="Visualization_Cloudiness.html">Cloudiness</a></li>
-                    <li><a class="dropdown-item"  href="Visualization_Windspeed.html">Wind Speed</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </nav>
       </div>
 <div class="container bg-1" >
   <div class="row">
     <div class="col-lg-7 col-sm-12">
       <div >
         <h1> Cloudiness</h1>
-        <img class="img-big" src="Resources/Lat_Cloudiness.png" alt="Lattitude vs. Cloudiness" >
+        <img class="img-big" src="../Assets/Lat_Cloudiness.png" alt="Lattitude vs. Cloudiness" >
         <p>
           According to the data, weakly positive correlation found between Latitude and cloudiness for Northern Hemisphere and Southern Hemisphere.
         </p>
@@ -59,16 +71,16 @@
       <h1>Visualizations</h1>
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-list" src="Resources/Lat_Temp.png" alt="Lattitude vs. Temp">
+          <img class="img-list" src="../Assets/Lat_Temp.png" alt="Lattitude vs. Temp">
         </div>
         <div class="col-lg-6">
-          <img class="img-list" src="Resources/Lat_Humidity.png" alt="Lattitude vs. Cloudiness">
+          <img class="img-list" src="../Assets/Lat_Humidity.png" alt="Lattitude vs. Cloudiness">
         </div>
         <div class="col-lg-6">
-          <img class="img-list img-border" src="Resources/Lat_Cloudiness.png" alt="Lattitude vs. Cloudiness" >
+          <img class="img-list img-border" src="../Assets/Lat_Cloudiness.png" alt="Lattitude vs. Cloudiness" >
         </div>
         <div class="col-lg-6">
-          <img class="img-list"  src="Resources/Lat_WindSpeed.png" alt="Lattitude vs. Wind Speed">
+          <img class="img-list"  src="../Assets/Lat_WindSpeed.png" alt="Lattitude vs. Wind Speed">
         </div>
       </div>
     </div>
