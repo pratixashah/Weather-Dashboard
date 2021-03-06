@@ -82,14 +82,17 @@
               font-weight: bolder;
               font-size: 35px;
               letter-spacing: 4px;
+              padding-top: 8px;
             }
             .navbar-brand a:hover{
               color:salmon !important;
               font-weight: bolder;
+              text-decoration: none;
             }
             .navbar-nav  li a:hover {
               color:salmon !important;
               font-weight: bolder;
+              /* text-decoration:underline; */
             }
     
             .active { 
