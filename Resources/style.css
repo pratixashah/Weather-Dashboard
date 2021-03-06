@@ -2,11 +2,9 @@
               font: 20px Montserrat, sans-serif;
               line-height: 1.8;
               background-color:#3596B5;
-              /* color: #f5f6f7; */
             }
             h1{
               font: Montserrat, sans-serif;
-              /* line-height: 1.8; */
               color:#296073;
               font-size: 25px;
               font-weight: bolder;
@@ -15,7 +13,6 @@
             }
             h2{
               font: Montserrat, sans-serif;
-              /* line-height: 1.8; */
               color:#296073;
               font-size: 18px;
               font-weight: bolder;
@@ -35,8 +32,6 @@
             .text-info {
               font-size: 12px;
               font: Montserrat, sans-serif;
-              /* text-align: left;
-              float: right; */
               color:#296073;
             }
             .margin {margin-bottom: 45px;}
@@ -81,13 +76,12 @@
                 font-weight: bolder;
                 font-size: 12px;
                 letter-spacing: 2px;
-              }
+            }
             .navbar-brand
             {
               font-weight: bolder;
               font-size: 35px;
               letter-spacing: 4px;
-              /* line-height: 2; */
             }
             .navbar-brand a:hover{
               color:salmon !important;
@@ -97,21 +91,20 @@
               color:salmon !important;
               font-weight: bolder;
             }
-            /* .navbar-nav  li a:focus{
-              color:yellowgreen !important;
-              font-weight: bolder;
-            }
-            .navbar-nav  li a:active{
-              color:yellowgreen !important;
-              font-weight: bolder;
-            } */
+    
             .active { 
-              /* color:black; */
               background-color: #C0C0C0; 
-              /* color: green; */
-              /* background-color:salmon; */
               pointer-events: none;
-          } 
+            } 
+
+            @media (max-width: 769px) {
+              .navbar {
+                background-color:#d4d7d8;
+                color:white;
+                /* color: white; */
+              }
+            }         
+
             .img-home{
               width:350px;
               height:280px; 
@@ -125,8 +118,7 @@
             .img-list-big{
               text-align: center;
               width:325px;
-              height:225px; 
-              /* float: left; */
+              height:225px;
             }
             .img-big{
               width:550px;
@@ -137,5 +129,19 @@
               border-width: 3px;
               border-color: salmon;
               border-style:ridge;
+            }
+            .table{
+              text-align: left;
+              font-size: 14px;
+              font: Montserrat, sans-serif;
+              color:#296073;
+            }
+
+            .table tbody tr{
+              border-left:#296073;
+              border-right:#296073;
+              border-style: solid;
+              border-width: 0.5px;
+
             }
             
