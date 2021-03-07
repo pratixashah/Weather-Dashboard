@@ -3,16 +3,16 @@
 A visualization dashboard website using visualizations plotting weather data. This dashboard creates individual pages for each plot and a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations. A landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ## Data/Image Sources(Assets dir):
-- This dir contains Images used for visualizations 
-- cities.csv file as Data Source for reference 
-- Data.html file contains data from cities.csv in html format
+- This dir contains Images used for visualizations.
+- cities.csv file as Data Source for reference.
+- Data.html file contains data from cities.csv in html format.
 
 ## Resources(style.css):
 - style.css contains classes of styles used for styling the this website content.
 - It includes @media query as well.
 
 ## Visualizations Analysis(visualizations dir)
-- It contains html pages of Visualizations Analysis for Latitude vs - Max Temp, Humidity, Cloudiness, Wind Speed
+- It contains html pages of Visualizations Analysis for Latitude vs - Max Temp, Humidity, Cloudiness, Wind Speed.
 
 ## This website, 
 - Uses a Bootstrap theme
@@ -20,13 +20,13 @@ A visualization dashboard website using visualizations plotting weather data. Th
 - A Home Page Link:
   - Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 - A responsive nav(Navigation Menu):
-  - Uses meaningful glyphicons next to links in the header
+  - Uses meaningful glyphicons next to links in the header.
   - Contains a dropdown menu on the right of the navbar named “Plots” that provides a link to each individual visualization page.
   - Provides two more text links on the right: “Comparison,” which links to the comparison page, and “Data,” which links to the data page.
   - It gets collapsed at small screen size and change background color as well. 
-  - Contains active page link highlighted and disabled for the same page in the header (Except Home Page link named "Latitude" - All time Accessible)
+  - Contains active page link highlighted and disabled for the same page in the header (Except Home Page link named "Latitude" - All time Accessible).
 - Visualization Navigation:
-  - Has visualization navigation on every visualizations page with an active state
+  - Has visualization navigation on every visualizations page with an active state.
 
   ## A landing page containing(index.html):
     - An explanation of the project.
