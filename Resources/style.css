@@ -132,14 +132,15 @@
               border-width: 3px;
               border-color: salmon;
               border-style:ridge;
-              pointer-events: none;
+              /* pointer-events: none; */
             }
-            
+
             .table{
               text-align: left;
               font-size: 14px;
               font: Montserrat, sans-serif;
               color:#296073;
+              /* width: 80%; */
             }
 
             .table tbody tr{
