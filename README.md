@@ -4,7 +4,7 @@ A visualization dashboard website using visualizations plotting weather data. Th
 
 ## Data/Image Sources(Assets dir):
 - This dir contains Images used for visualizations 
-- cities.csv file as Data Source 
+- cities.csv file as Data Source for reference 
 - Data.html file contains data from cities.csv in html format
 
 ## Resources(style.css):
@@ -16,9 +16,17 @@ A visualization dashboard website using visualizations plotting weather data. Th
 
 ## This website, 
 - Uses a Bootstrap theme
-- Uses meaningful glyphicons next to links in the header
-- Contains active page link highlighted and disabled for the same page in the header (Except Home Page link named "Latitude" - All time Accessible)
-- Has visualization navigation on every visualizations page with an active state
+- Is responsive (using media queries)
+- A Home Page Link:
+  - Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
+- A responsive nav(Navigation Menu):
+  - Uses meaningful glyphicons next to links in the header
+  - Contains a dropdown menu on the right of the navbar named “Plots” that provides a link to each individual visualization page.
+  - Provides two more text links on the right: “Comparison,” which links to the comparison page, and “Data,” which links to the data page.
+  - It gets collapsed at small screen size and change background color as well. 
+  - Contains active page link highlighted and disabled for the same page in the header (Except Home Page link named "Latitude" - All time Accessible)
+- Visualization Navigation:
+  - Has visualization navigation on every visualizations page with an active state
 
   ## A landing page containing(index.html):
     - An explanation of the project.
@@ -35,13 +43,8 @@ A visualization dashboard website using visualizations plotting weather data. Th
     - Uses a Bootstrap grid for the visualizations.
     - The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
     
-  ## A “Data” page(in Assets dir Data.html):
+  ## A “Data” page(Assets/Data.html):
     - Displays a responsive table containing the cities data used in the visualizations.
     - The table is a bootstrap table component.
-
-The website, at the top of every page, have a navigation menu that:
-  - Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-  - Contains a dropdown menu on the right of the navbar named “Plots” that provides a link to each individual visualization page.
-  - Provides two more text links on the right: “Comparison,” which links to the comparison page, and “Data,” which links to the data page.
-  - Is responsive (using media queries). 
+    
  
